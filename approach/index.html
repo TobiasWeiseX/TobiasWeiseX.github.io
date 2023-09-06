@@ -3,20 +3,20 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Projects | Tobias Weise</title>
+<title>Approach | Tobias Weise</title>
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Projects" />
+<meta property="og:title" content="Approach" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="I’m a software developer from Berlin/Germany and focus on Rapid-Prototyping and extensible Software." />
 <meta property="og:description" content="I’m a software developer from Berlin/Germany and focus on Rapid-Prototyping and extensible Software." />
-<link rel="canonical" href="https://tobiasweisex.github.io/projects/" />
-<meta property="og:url" content="https://tobiasweisex.github.io/projects/" />
+<link rel="canonical" href="https://tobiasweisex.github.io/approach/" />
+<meta property="og:url" content="https://tobiasweisex.github.io/approach/" />
 <meta property="og:site_name" content="Tobias Weise" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Projects" />
+<meta property="twitter:title" content="Approach" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"I’m a software developer from Berlin/Germany and focus on Rapid-Prototyping and extensible Software.","headline":"Projects","url":"https://tobiasweisex.github.io/projects/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"I’m a software developer from Berlin/Germany and focus on Rapid-Prototyping and extensible Software.","headline":"Approach","url":"https://tobiasweisex.github.io/approach/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://tobiasweisex.github.io/feed.xml" title="Tobias Weise" /></head>
 <body><header class="site-header" role="banner">
@@ -39,45 +39,53 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Projects</h1>
+    <h1 class="post-title">Approach</h1>
   </header>
 
   <div class="post-content">
-    <p>Some selected projects:</p>
+    <p>Quickly getting a prototype/MVP up and running is key to customer feedback and engagement.
+Only a customer that collaborates in the development process of the product gives precise and informed feedback.</p>
 
-<h2 id="mock-iot-device--">Mock-IoT-Device @ <img style="max-width: 80px; max-height: 50px;" src="/assets/img/breuer.svg" /></h2>
+<p>Based on that premise the following technologies are my default choice to cover most cases:</p>
 
-<p><em>Duration: 2 Months</em></p>
+<ul>
+  <li><a href="https://xkcd.com/353/">Python</a></li>
+  <li>JavaScript</li>
+  <li>HTML, CSS</li>
+  <li>VueJS / Quasar Framework</li>
+  <li>PHP</li>
+  <li>SQL</li>
+  <li>Node.js / ExpressJS</li>
+  <li>MongoDB</li>
+  <li>Docker</li>
+</ul>
 
-<p>(Subproject of <a href="https://en.wikipedia.org/wiki/Industrial_internet_of_things">IIoT</a>-project ‘Digitale Weiche 2’)</p>
+<p>Supporting methodologies:</p>
 
-<p>I created a container-based IoT device mock via Python and <a href="https://linuxcontainers.org/lxd/introduction/">LXC/LXD</a> to help develop the IIoT-backend and test the project concept overall.</p>
+<ul>
+  <li>Agile - Incremental advances reduce risk,</li>
+  <li>DevOps - Packaging software with OS-wrapper eases deployment and reproducibility</li>
+  <li>and <a href="https://en.wikipedia.org/wiki/Functional_programming">Functional programming</a> - building larger solutions from well testable smaller ones</li>
+</ul>
 
-<p><strong>Used tools: LXD/LXC, Python, Bash, Curl, SSH, Ubuntu, Snap</strong></p>
+<p><br /></p>
+
+<h2 id="heavy-lifting-after-you-know-what-you-lift">Heavy-lifting after you know what you lift</h2>
+
+<p>Premature optimization is a problem I want to avoid so I avoid optimized languages until the mission is clear.</p>
+
+<p>C/C++ and Java would cover those cases for me.</p>
 
 <p><br /></p>
 
-<h2 id="payview-app--">Payview-App @ <img style="max-width: 80px; max-height: 50px;" src="/assets/img/ihp.png" /></h2>
+<h2 id="creating-tools-to-support-creating-tools">Creating tools to support creating tools</h2>
 
-<p><em>Duration: 3 Months</em></p>
+<p>As scripting languages like CPython have access to anything from high-level Web-API’s to low-level C or serial interfaces information can easily be obtained and visualized via HTML5, CSS and Javascript.</p>
 
-<p>I developed a Web App to sign up for IHP-workshops including online payment and verification e-mail.</p>
+<p>Understanding your project on a higher level may suddenly be possible beyond buildin functionality of common tools.
+A Python script I made helped in understanding the state of a Jira project that was overly fragmented because connecting issues were retired without propagating the changes and realizing the implications on other issues.</p>
 
-<p><strong>Used tools: PHP, LDAP, Adldap2, HTML5, CSS, RHEL, Deutsche Bank Banking-API</strong></p>
-
-<p><br /></p>
-
-<h2 id="rest-api-für-active-directory-access-in-intranet-single-page-applications--">REST-API für Active Directory access in Intranet-Single-Page-Applications @ <img style="max-width: 80px; max-height: 50px;" src="/assets/img/ihp.png" /></h2>
-
-<p><em>Duration: 1 Month</em></p>
-
-<p>I developed a REST-API to access user informations like profile picture, e-mail address, title and membership to groups and organizations so apps can easily incorporate those informations into their business logic.</p>
-
-<p>The documentation of the microservice is entirely created from it’s own source code: Possible routes and their parameters using Python-decorators and introspection of the function’s type-annotations.</p>
-
-<p><strong>Used tools: Gunicorn, Flask, Docker, python-ldap3, JWT, RHEL</strong></p>
-
-<p><br /></p>
+<p><img title="Jira issue graph snapshot of project Digitale Weiche 2 visualized via HTML5, Jinja2, Python and Jira-REST-API" alt="Jira issue graph snapshot of project Digitale Weiche 2 visualized via HTML5, Jinja2, Python and Jira-REST-API" src="/assets/img/jira_graph.png" /></p>
 
 
   </div>
