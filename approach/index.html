@@ -43,29 +43,39 @@
   </header>
 
   <div class="post-content">
-    <p>Quickly getting a prototype/MVP up and running is key to customer feedback and engagement.
+    <p><em>Software is executable knowledge.</em> ~ Writing software requires gaining and encoding that knowledge.</p>
+
+<p>Quickly getting a prototype/MVP up and running is key to customer feedback and engagement.
 Only a customer that collaborates in the development process of the product gives precise and informed feedback.</p>
 
 <p>Based on that premise the following technologies are my default choice to cover most cases:</p>
 
+<p><strong>Backend:</strong></p>
 <ul>
-  <li><a href="https://xkcd.com/353/">Python</a></li>
-  <li>JavaScript</li>
-  <li>HTML, CSS</li>
-  <li>VueJS / Quasar Framework</li>
-  <li>PHP</li>
-  <li>SQL</li>
-  <li>Node.js / ExpressJS</li>
-  <li>MongoDB</li>
-  <li>Docker</li>
+  <li><a href="https://xkcd.com/353/">Python</a> (easy integration with C, Rust and Go -&gt; access to large ecosystem and high performance functionality in addition to it’s own large library collection accessable via PIP)</li>
+  <li>FastAPI(for quick asyncronous REST-API development, can replace Flask in almost all cases), Flask(if FastAPI is too restrictive), Django(if its assumptions hit the spot: SQL + ORM, Multi-Page-Application, simple infrastructure, Admin-UI out of the Box)</li>
+  <li>Elasticsearch/OpenSearch, MongoDB (SQL schemas need migration mechanism to ease incremental development, document stores less so)</li>
+  <li>Testing: pytest / unittest, Robotframework</li>
 </ul>
 
-<p>Supporting methodologies:</p>
+<p><strong>Frontend:</strong></p>
+<ul>
+  <li>JavaScript (Typescript if a UI-framework is used with it)</li>
+  <li>Bootstrap 5 (solid professional look)</li>
+  <li>VueJS / Nuxt.js / Quasar Framework (for more opportunities of deployment: Desktop, Mobile)</li>
+  <li>Testing: Cypress, Robotframework + Selenium</li>
+</ul>
 
+<p><strong>Deployment:</strong></p>
+<ul>
+  <li>Docker/Docker-Compose, Kubernetes if infrastructure exists</li>
+</ul>
+
+<p><strong>Supporting methodologies:</strong></p>
 <ul>
   <li>Agile - Incremental advances reduce risk,</li>
   <li>DevOps - Packaging software with OS-wrapper eases deployment and reproducibility</li>
-  <li>and <a href="https://en.wikipedia.org/wiki/Functional_programming">Functional programming</a> - building larger solutions from well testable smaller ones</li>
+  <li><a href="https://en.wikipedia.org/wiki/Functional_programming">Functional programming</a> - building larger solutions from well testable smaller ones, avoiding sideeffects</li>
 </ul>
 
 <p><br /></p>
@@ -74,7 +84,8 @@ Only a customer that collaborates in the development process of the product give
 
 <p>Premature optimization is a problem I want to avoid so I avoid optimized languages until the mission is clear.</p>
 
-<p>C/C++ and Java would cover those cases for me.</p>
+<p>C/C++ and Java would cover those cases for me.
+Currently learning Go as it is a great replacement for both.</p>
 
 <p><br /></p>
 
